@@ -1,0 +1,52 @@
+inicio
+escriba "__________________ ##"
+llamar nueva_linea
+escriba "_________________###* "
+llamar nueva_linea
+escriba "______________.*##### "
+llamar nueva_linea
+escriba "_____________*###### "
+llamar nueva_linea
+escriba "___________*####### "
+llamar nueva_linea
+escriba "__________*########. "
+llamar nueva_linea
+escriba "_________*#########. "
+llamar nueva_linea
+escriba "_________*#######*##* "
+llamar nueva_linea
+escriba "________*#########*### "
+llamar nueva_linea
+escriba "_______*##########*__*##" 
+llamar nueva_linea
+escriba "_____*###########_____* "
+llamar nueva_linea
+escriba "____############ "
+llamar nueva_linea
+escriba "___*##*######### "
+llamar nueva_linea
+escriba "___*_____######## "
+llamar nueva_linea
+escriba "__________####### "
+llamar nueva_linea
+escriba "___________*###### "
+llamar nueva_linea
+escriba "____________*#####* "
+llamar nueva_linea
+escriba "______________*####* "
+llamar nueva_linea
+escriba "________________*#### "
+llamar nueva_linea
+escriba "__________________*##* "
+llamar nueva_linea
+escriba "____________________*## "
+llamar nueva_linea
+escriba "_____________________*##." 
+llamar nueva_linea
+escriba "____________________.#####. " 
+llamar nueva_linea
+escriba "_________________.########## "
+llamar nueva_linea
+escriba "________________.####*__*#### "
+llamar nueva_linea
+fin
