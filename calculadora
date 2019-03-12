@@ -1,0 +1,50 @@
+//operaciones separadas
+entero a,b,c
+caracter p
+inicio
+p<-' '
+escriba "Bienvenido a nuestra calculadora que operacion  desearia usar hoy?"
+llamar nueva_linea
+escriba "(digite solamente la inicial de la operacion que desea hacer hoy)"
+llamar nueva_linea
+escriba "s<-suma    r<-resta    m<-multiplicacion    d<-divicion"
+llamar nueva_linea
+lea p
+	si p='s' entonces
+		escriba "ingrese primer numero "
+		lea a
+		escriba "ingrese segundo numero "
+		lea b
+		c<-a+b
+		escriba "la suma es ",a,"+",b," = ",c
+	sino
+		si p='r' entonces
+		escriba "ingrese primer numero "
+		lea a
+		escriba "ingrese segundo numero "
+		lea b
+		c<-a-b
+		escriba "la resta es ",a,"-",b," = ",c
+		sino
+			si p='m'entonces
+			escriba "ingrese primer numero "
+			lea a
+			escriba "ingrese segundo numero "
+			lea b
+			c<-a*b
+			escriba "la multuplicacion es ",a,"*",b," = ",c
+			sino
+				si p='d' entonces
+				escriba "ingrese primer numero "
+				lea a
+				escriba "ingrese segundo numero "
+				lea b
+				c<-a/b
+				escriba "la divicion es ",a,"/",b," = ",c
+				sino
+				escriba "la inicial es incorrecta"
+				fin si
+			fin si
+		fin si
+	fin si
+fin
