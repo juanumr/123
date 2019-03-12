@@ -1,0 +1,69 @@
+//Bogota-Tocaima
+entero a
+inicio
+	escriba "Dime a donde quieres ir"
+	llamar nueva_linea
+	escriba "Bogota-> 1        Tocaima-> 2"
+	llamar nueva_linea
+	lea a
+		si a=1 entonces
+			escriba "bienvenido a bogota"
+			llamar nueva_linea
+			escriba "por favor diganos con que piensa pagar las entradas de cine"
+			llamar nueva_linea
+			escriba "un solo peso-> 1        otra cantidad de pesos->2"
+			llamar nueva_linea
+			lea a
+			si a=1 entonces
+				escriba "felicidades tienes permitido comprar 3 boletas para cine"
+			sino
+				si a=2 entonces
+					escriba "tiene permitido comprar 1 boletas para cine"
+					llamar nueva_linea
+					escriba "numeros pares"
+					para a<-11 hasta 20 haga a<-a+1
+						llamar nueva_linea
+						escriba a
+					fin para
+				sino
+					escriba "dato herroneo por favor repita"
+				fin si
+			fin si
+		sino
+			si a=2 entonces
+				escriba "bienvenido a tocaima"
+				llamar nueva_linea
+				escriba "por favor diganos su genero"
+				llamar nueva_linea
+				escriba "hombre-> 1        mujer-> 2"
+				llamar nueva_linea
+				lea a
+				si a=1 entonces
+					escriba "cuantos bultos de papa le desearia levantar?"
+					llamar nueva_linea
+					lea a
+					si a<=10 entonces
+						si a>=1 entonces
+							escriba "usted desea cargar ",a," bultos"
+						sino 
+							escriba "la cantidad es inutil"
+						fin si
+					sino
+						escriba "cargar demasiado es perjudicial"
+					fin si
+				sino
+					si a=2 entonces
+						escriba "numeros impares"
+						para a<-20 hasta 29 haga a<-a+1
+							llamar nueva_linea
+							escriba a
+						fin para
+					sino
+					escriba "dato erroneo por favor repita"
+					fin si
+				fin si
+			sino
+			escriba "dato erroneo por favor repita"
+			fin si
+		fin si
+	fin
